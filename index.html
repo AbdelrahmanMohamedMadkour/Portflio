@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Abdelrahman Madkour</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+                
+                 <font size = "4" Abdelrahman Mohamed Madkour >
+                </p>
+            
+            <img src="Abdelrahman.jpg" alt="Profile Picture" height="250", width="200" >
+            <h1 id="typing-effect"></h1>
+            <nav>
+                <a href="#about">About me</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+<ul>
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2><li>About Me</h2></li>
+            <p>
+                I am Abdelrahman Madkour, an AI developer and data analyst with a Bachelor of Science in Business Analytics from the Egyptian Russian University. I am specializes in machine learning, data visualization, and analytics, with hands-on experience from internships at Samsung Innovation Campus Banque Misr and ITI, where he developed predictive models and mastered tools like Python, SQL, Power BI, and Tableau.
+
+                Through projects like flight price prediction and bank credit scoring, I have demonstrated the ability to turn data into actionable insights, combining technical expertise with creativity and analytical thinking. With a passion for leveraging AI to solve real-world challenges, he is committed to driving innovation and impactful solutions.. My expertise lies in machine learning, data visualization, and analytics.
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- Experience Section -->
+    <section id="internships">
+        <div class="container">
+            <li><h2>Experience</h2></li>
+            <div class="internship-list">
+                <!-- Internship 1 -->
+                <div class="internship">
+                    <h3 onclick="toggleDetails('iti-details')">Business Intelligence Summer Training, ITI [Sep 2024 – Oct 2024]</h3>
+                    <div id="iti-details" class="details">
+                        <ul>
+                            <li>Gained a comprehensive understanding of Database Fundamentals and Data Warehousing concepts.</li>
+                            <li>Enhanced skills in Advanced SQL for complex data manipulation and retrieval.</li>
+                            <li>Acquired proficiency in SQL BI for business intelligence solutions.</li>
+                            <li>Developed knowledge in Statistics for data analysis and interpretation.</li>
+                            <li>Hands-on experience with Excel, Power BI, and Tableau for data visualization and reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Internship 2 -->
+                <div class="internship">
+                    <h3 onclick="toggleDetails('banque-details')">Data Science Internship, Banque Misr [Jul 2024 – Aug 2024]</h3>
+                    <div id="banque-details" class="details">
+                        <ul>
+                            <li>Developed machine learning models to analyze large datasets, resulting in improved predictive accuracy for customer behavior and risk assessment.</li>
+                            <li>Gained a solid understanding of Agile framework principles and their application in project management to enhance efficiency and ensure timely delivery of data-driven solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Internship 3 -->
+                <div class="internship">
+                    <h3 onclick="toggleDetails('samsung-details')">Artificial Intelligence Scholarship, Samsung Innovation Campus [Jul 2023 – Oct 2023]</h3>
+                    <div id="samsung-details" class="details">
+                        <ul>
+                            <li>Learned to proficiently manipulate and analyze data using NumPy and pandas.</li>
+                            <li>Learned to apply descriptive statistics, hypothesis testing, and confidence intervals to draw meaningful conclusions from data.</li>
+                            <li>Developed expertise in data preprocessing.</li>
+                            <li>Gained experience with supervised learning algorithms for regression and classification, and unsupervised learning techniques.</li>
+                            <li>Scraped data with Python.</li>
+                            <li>Deployed machine learning models.</li>
+                            <li>Learned and developed deep learning techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+        <li><h2>Projects</h2></li>
+            <div class="project-grid">
+                <div class="project" onclick="openProject('https://www.kaggle.com/code/abdelrahmanmohammed1/flight-eda-and-modeling-90')">
+                    <img src="www.usnews.jpg" alt="Flight Price Prediction" height="150" width="250">
+                    <h3>Flight Price Prediction</h3>
+                </div>
+                <div class="project" onclick="openProject('https://www.linkedin.com/posts/abdelrahman-mohamed-241309235_credit-score-project-activity-7112610929619406848-KkOc')">
+                    <img src="what-is-a-good-credit-score.jpg" alt="Bank Credit Scoring" height="150" width="250">
+                    <h3>Bank Credit Scoring</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <!-- Technical Skills -->
+                <div class="skill-category">
+                    <h3 onclick="toggleDetails('technical-skills')">Technical Skills</h3>
+                    <div id="technical-skills" class="details">
+                        <ul>
+                            <li>Programming: C++, Python, R programming, SQL</li>
+                            <li>Statistics: Descriptive, Inferential</li>
+                            <li>Machine Learning</li>
+                            <li>Data Visualization Tools: Power BI, Seaborn, Matplotlib, ggplot</li>
+                            <li>Data Analysis: Pandas, dplyr, Excel</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3 onclick="toggleDetails('soft-skills')">Soft Skills</h3>
+                    <div id="soft-skills" class="details">
+                        <ul>
+                            <li>Work under pressure</li>
+                            <li>Creativity</li>
+                            <li>Presentation skills</li>
+                            <li>Analytical thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:pintorcoating@gmail.com">pintorcoating@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/abdelrahman-mohamed-241309235" target="_blank">LinkedIn</a></p>
+        </div>
+    </section>
+</ul> 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abdelrahman Madkour | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

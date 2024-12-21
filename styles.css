@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.skills-list {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.skill-category h3 {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #004080;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.skill-category h3:hover {
+    color: #0066cc;
+}
+
+.details {
+    display: none;
+    background: #f2f9ff;
+    padding: 10px 20px;
+    border-left: 4px solid #004080;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.details ul li {
+    margin-bottom: 5px;
+}
+
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+/* Project Section */
+.project {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* Internships Section */
+#internships {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.internship-list {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.internship h3 {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #004080;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.internship h3:hover {
+    color: #0066cc;
+}
+
+.details {
+    display: none;
+    background: #e6f2ff;
+    padding: 10px 20px;
+    border-left: 4px solid #004080;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.details ul li {
+    margin-bottom: 5px;
+}
+
+.details {
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
